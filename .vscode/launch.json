@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "Python: Multi Label Basline",
+      "type": "python",
+      "request": "launch",
+      "program": "./rankedvq/app/multilabel_baseline_app.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Test Multi Label",
+      "type": "python",
+      "request": "launch",
+      "program": "./scripts/test_multi_type_app.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

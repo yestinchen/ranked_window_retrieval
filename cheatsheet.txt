@@ -1,0 +1,5 @@
+python -m trace --count -C . rankedvq/app/single_type_app.py
+
+python -m cProfile -s tottime rankedvq/app/single_type_app.py
+
+python -m cProfile -s tottime scripts/test_multi_type_app.py
